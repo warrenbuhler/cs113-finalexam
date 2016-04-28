@@ -1,0 +1,6 @@
+<b>Post a chat!</b>
+<form method="POST" action = "postchat/">
+    {% csrf_token %}
+    {{ form }}
+   <br> <input type="submit" value="Lets start chatting!" class= 'btn' /><br>
+</form>
